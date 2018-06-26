@@ -4,10 +4,8 @@ import com.sur.parser.controller.Application;
 
 public class Driver {
 /*
- * Text dosyalarını masaüstünde Sur Parser klasörüne atar.
- * Eğer cümlelerin başında 1484832755,$DASUR,0010,2000,0793,00*5F olduğu gibi bir numara varsa
- * öncelikle Ins Number Remover projesi çalıştırılıp, o projenin çıktı dosyası bu programa sokulmalıdır.
- * Çünkü bu programın giriş dosyasındaki cümleler $DASUR,0010,2000,0793,00*5F şeklinde olmalıdır.
+ * Text dosyalarÃ½nÃ½ masaÃ¼stÃ¼nde Parser klasÃ¶rÃ¼ne atar.
+ * 
  */
 
 	public static void main(String[] args) {
