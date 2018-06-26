@@ -17,14 +17,14 @@ import com.sur.parser.objects.Sentence;
 
 public class TextWriter {
 
-	private static final String NEW_FILE_FOLDER = System.getProperty("user.home") + "\\Desktop" + "\\Sur Parser";
+	private static final String NEW_FILE_FOLDER = System.getProperty("user.home") + "\\Desktop" + "\\Parser";
 	private File newFolder=new File(NEW_FILE_FOLDER);
 	private FileOutputStream fileOutputStream;
 	private List<Sentence> sentences = new ArrayList<>();
 
 	/*
-	 * Öncelikle dizinin oluþturulmasý gerekir. Dizin oluþturma iþlemi
-	 * Application içinde yapýlmaktadýr.
+	 * Ã–ncelikle dizinin oluÃ¾turulmasÃ½ gerekir. Dizin oluÃ¾turma iÃ¾lemi
+	 * Application iÃ§inde yapÃ½lmaktadÃ½r.
 	 */
 	public TextWriter() {
 		createFolder(newFolder);
@@ -33,8 +33,8 @@ public class TextWriter {
 	public void createTextFiles(ArrayList<String> checkBoxes) {
 		for (String string : checkBoxes) {
 			switch (string) {
-			case "Sürat":
-				writeText("getSurat", "Sürat", "int");
+			case "SÃ¼rat":
+				writeText("getSurat", "SÃ¼rat", "int");
 				break;
 			case "Umk":
 				writeText("getUmk", "Umk", "int");
@@ -101,8 +101,8 @@ public class TextWriter {
 		} else {
 			deleteFolder(folder);
 //			try {
-//				// deletefolder bitmeden aþaðýdaki klasörü oluþturuyor. bu
-//				// yüzden wait verildi.
+//				// deletefolder bitmeden aÃ¾aÃ°Ã½daki klasÃ¶rÃ¼ oluÃ¾turuyor. bu
+//				// yÃ¼zden wait verildi.
 //				Thread.sleep(30);
 //			} catch (InterruptedException e) {
 //				e.printStackTrace();
