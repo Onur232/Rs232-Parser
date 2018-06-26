@@ -27,16 +27,15 @@ public class MainFrame {
 	private JPanel pnlNorth;
 	private ArrayList<JCheckBox> checkBoxs=new ArrayList<>();
 	private ArrayList<JLabel> labels=new ArrayList<>();
-	private String[] checkBoxNames={"Sürat","Umk","Rota"};
+	private String[] checkBoxNames={"SÃ¼rat","Umk","Rota"};
 	
-//	private String[] labelNames={"Platform Silah Sayısı","","Kerteriz Geçerlilik","",
-//			"Pozisyon Geçerlilik","",
-//			"Enlem Kuzey(N) / Güney(S)","",
-//			"Boylam Doğu(E) / Batı(W)","","Lockon","","İlk Tespit Zamanı","","Son Tespit Zamanı","",
-//			"Tehdit Tipi",
-//			"","Güvenilirlik",""};
+//	private String[] labelNames={"","Kerteriz GeÃ§erlilik","",
+//			"Pozisyon GeÃ§erlilik","",
+//			"Enlem Kuzey(N) / GÃ¼ney(S)","",
+//			"Boylam DoÃ°u(E) / BatÃ½(W)","","Lockon","","Ãlk Tespit ZamanÃ½","","Son Tespit ZamanÃ½","",
+//			"","GÃ¼venilirlik",""};
 	
-	//TODO bilgi ve checkbox panelleri ayrı olacak ve border'lı olacak.
+	//TODO bilgi ve checkbox panelleri ayrÃ½ olacak ve border'lÃ½ olacak.
 	public MainFrame() {
 		initializeComponents();
 	}
@@ -98,7 +97,7 @@ public class MainFrame {
 	
 //	public void setFieldsText(ArrayList<Sentence> sentences){
 //		Sentence sentence = sentences.get(0);
-//		labels.get(1).setText(String.valueOf(sentence.getPlatformSilahSayisi()));
+//		
 //		labels.get(3).setText(Convert.getKerterizGecerlilik(sentence.getKerterizGecerlilik()));
 //		labels.get(5).setText(Convert.getPozisyonGecerlilik(sentence.getPozisyonGecerlilik()));
 //		labels.get(7).setText(sentence.getEnlemKuzeyGuney());
@@ -106,7 +105,7 @@ public class MainFrame {
 //		labels.get(11).setText(Convert.getLockon(sentence.getLockon()));
 //		labels.get(13).setText(Convert.getIlkTespitZamani(sentence.getIlkTespitZamani()));
 //		labels.get(15).setText(Convert.getSonTespitZamani(sentence.getSonTespitZamani()));
-//		labels.get(17).setText(Convert.getTehditTipi(sentence.getTehditTipi()));
+//		
 //		labels.get(19).setText(Convert.getGuvenilirlik(sentence.getGuvenilirlik()));
 //	}
 	
