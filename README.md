@@ -1,2 +1,2 @@
 # Rs232-Parser
-A project to parse incoming Rs232 messages
+A standalone java project to parse incoming Rs232 messagesfrom a hardware.
