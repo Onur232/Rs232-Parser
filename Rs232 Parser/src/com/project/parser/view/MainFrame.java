@@ -29,11 +29,7 @@ public class MainFrame {
 	private ArrayList<JLabel> labels=new ArrayList<>();
 	private String[] checkBoxNames={"Sürat","Umk","Rota"};
 	
-//	private String[] labelNames={"","Kerteriz Geçerlilik","",
-//			"Pozisyon Geçerlilik","",
-//			"Enlem Kuzey(N) / Güney(S)","",
-//			"Boylam Doðu(E) / Batý(W)","","Lockon","","Ýlk Tespit Zamaný","","Son Tespit Zamaný","",
-//			"","Güvenilirlik",""};
+//	
 	
 	//TODO bilgi ve checkbox panelleri ayrý olacak ve border'lý olacak.
 	public MainFrame() {
@@ -95,19 +91,7 @@ public class MainFrame {
 		frame.add(pnlSouth,BorderLayout.SOUTH);
 	}
 	
-//	public void setFieldsText(ArrayList<Sentence> sentences){
-//		Sentence sentence = sentences.get(0);
-//		
-//		labels.get(3).setText(Convert.getKerterizGecerlilik(sentence.getKerterizGecerlilik()));
-//		labels.get(5).setText(Convert.getPozisyonGecerlilik(sentence.getPozisyonGecerlilik()));
-//		labels.get(7).setText(sentence.getEnlemKuzeyGuney());
-//		labels.get(9).setText(sentence.getBoylamDoguBati());
-//		labels.get(11).setText(Convert.getLockon(sentence.getLockon()));
-//		labels.get(13).setText(Convert.getIlkTespitZamani(sentence.getIlkTespitZamani()));
-//		labels.get(15).setText(Convert.getSonTespitZamani(sentence.getSonTespitZamani()));
-//		
-//		labels.get(19).setText(Convert.getGuvenilirlik(sentence.getGuvenilirlik()));
-//	}
+//	
 	
 	public void addCheckBoxListener(ActionListener listener){
 		for (JCheckBox jCheckBox : checkBoxs) {
